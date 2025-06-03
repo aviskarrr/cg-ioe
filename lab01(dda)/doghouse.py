@@ -44,7 +44,22 @@ def main():
                 pygame.quit()
                 sys.exit()
         screen.fill(BLACK)
-        ddaLine(25, 125, 700, 500)
+        # ddaLine(25, 125, 700, 222)
+        #to make a dog house kind of using this lines
+        ddaLine(30,30,100,30)
+        ddaLine(30, 30, 30, 300)    
+        ddaLine(100, 30, 100, 300)
+        ddaLine(30, 300, 100, 300)
+        ddaLine(30, 300, 60, 350)
+        ddaLine(60, 350, 100, 300)
+
+
+        # ddaLine(30,30,100,30)
+        # ddaLine(30,30,30,300)
+        # ddaLine(100,30,100,300)
+        # ddaLine(30,300,100,300)
+        # ddaLine(30,300,60,350)
+        # ddaLine(60,350,100,300)
         pygame.display.flip()
         pygame.time.delay(100)
 
