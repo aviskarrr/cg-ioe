@@ -48,7 +48,7 @@ def BLA(x1, y1, x2, y2):
                 y = y + ly
                 p = p + 2*(dx - dy)
                 
-                screen.set_at((round(x), round(y)), WHITE)
+            screen.set_at((round(x), round(y)), WHITE)
 
 
 pygame.init()
