@@ -70,7 +70,7 @@ def main():
                 pygame.quit()
                 sys.exit()
         screen.fill(BLACK)
-        BLA(25, 125, 200, 220)
+        BLA(25, 125, 500, 500)
         pygame.display.flip()
         pygame.time.delay(100)
 
