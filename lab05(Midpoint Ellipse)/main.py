@@ -69,7 +69,7 @@ def main():
                 pygame.quit()
                 sys.exit()
         screen.fill(BLACK)
-        midpointEllipse(160, 130, 400, 300)
+        midpointEllipse(335, 221, 400, 335)
         
         pygame.display.flip()
         pygame.time.delay(100)
