@@ -1,0 +1,1 @@
+while true; do start "" "https://example.com"; done
