@@ -30,7 +30,7 @@ def midpointEllipse(rx,ry,xc,yc):
             
     p2 = ry * ry* (x+ 0.5) * (x+0.5) + rx*rx*(y-1)*(y-1)-rx*rx*ry*ry
     
-    while(y!=0):
+    while(y>=0):
         if(p2>0):
             x = x
             y = y-1
